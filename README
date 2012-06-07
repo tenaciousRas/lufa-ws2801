@@ -1,0 +1,37 @@
+ WS2801 Test Jig
+ Copyright (C) Free Beachler, 2012 (longevitysoft at gmail.com).
+ Original concept and source code copyright Sparkfun (www.sparkfun.com)
+
+ Permission to use, copy, modify, distribute, and sell this
+ software and its documentation for any purpose is hereby granted
+ without fee, provided that the above copyright notice appear in
+ all copies and that both that the copyright notice and this
+ permission notice and warranty disclaimer appear in supporting
+ documentation, and that the name of the author not be used in
+ advertising or publicity pertaining to distribution of the
+ software without specific, written prior permission.
+ 
+ The author disclaim all warranties with regard to this
+ software, including all implied warranties of merchantability
+ and fitness.  In no event shall the author be liable for any
+ special, indirect or consequential damages or any damages
+ whatsoever resulting from loss of use, data or profits, whether
+ in an action of contract, negligence or other tortious action,
+ arising out of or in connection with the use or performance of
+ this software.
+
+===============================================================
+
+ This software was written in XCode using OBDev's AVR-LIB toolchain for OS X
+ () and thus compiles with avr-gcc.
+
+ It has been tested on an the AdaFruit ATMega32u4 breakout 
+ (http://www.adafruit.com/products/296) with Sparkfun's WS2801 breakout
+ (http://www.sparkfun.com/products/10504).
+
+ To Build:
+ This is a typical avr-gcc project that uses Make.  Edit the Makefile with your 
+ programmer and port.  See the Makefile for additional notes.
+
+ Once Makefile has been configured, enter (from a command line) "make" to compile;
+ "make program" to program.

@@ -23,7 +23,7 @@
 ===============================================================
 
  This software was written in XCode using OBDev's AVR-LIB toolchain for OS X
- () and thus compiles with avr-gcc.
+ (http://www.obdev.at/products/crosspack/index.html) and thus compiles with avr-gcc.
 
  It has been tested on an the AdaFruit ATMega32u4 breakout 
  (http://www.adafruit.com/products/296) with Sparkfun's WS2801 breakout

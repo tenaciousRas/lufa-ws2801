@@ -30,8 +30,8 @@
  (http://www.sparkfun.com/products/10504).
 
  To Build:
- First(!) set the symbolic link named "LUFA" at the top level of this project.  This should 
- point at the /LUFA folder in the LUFA library. 
+ First(!) set the symbolic link named "LUFA" at the top level of this project.  
+ This should point at the /LUFA folder in the LUFA library. 
 
  This is a typical avr-gcc project that uses Make.  Edit the Makefile with your 
  programmer and port.  See the Makefile for additional notes.

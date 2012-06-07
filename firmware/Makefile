@@ -20,7 +20,7 @@
 # Programming hardware
 # Type: avrdude -c ?
 # to get a full listing.
-PROGRAMMER = -c avr109 -P /dev/tty.usbmodemfd121
+PROGRAMMER = avr109
 
 #
 # com1 = serial port. Use lpt1 to connect to parallel port.

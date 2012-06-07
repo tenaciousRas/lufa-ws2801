@@ -37,6 +37,6 @@
  programmer and port.  See the Makefile for additional notes.
 
  Once Makefile has been configured, enter the following UNIX commands compile and program:
-cd /lufa-ws2801/firmware
+cd [path-to-lufa-ws2801]/firmware
 make
 make program

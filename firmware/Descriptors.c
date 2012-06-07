@@ -205,7 +205,7 @@ USB_Descriptor_String_t PROGMEM ManufacturerString =
 {
 	.Header                 = {.Size = USB_STRING_LEN(11), .Type = DTYPE_String},
     
-	.UnicodeString          = L"Dean Camera"
+	.UnicodeString          = L"Free Beachler"
 };
 
 /** Product descriptor string. This is a Unicode string containing the product's details in human readable form,
@@ -216,7 +216,7 @@ USB_Descriptor_String_t PROGMEM ProductString =
 {
 	.Header                 = {.Size = USB_STRING_LEN(13), .Type = DTYPE_String},
     
-	.UnicodeString          = L"LUFA CDC Demo"
+	.UnicodeString          = L"ATMega32u4 + WS2801 Demo"
 };
 
 /** This function is called by the library when in device mode, and must be overridden (see library "USB Descriptors"

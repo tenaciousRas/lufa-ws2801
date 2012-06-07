@@ -36,5 +36,7 @@
  This is a typical avr-gcc project that uses Make.  Edit the Makefile with your 
  programmer and port.  See the Makefile for additional notes.
 
- Once Makefile has been configured, enter (from a command line) "make" to compile;
- "make program" to program.
+ Once Makefile has been configured, enter the following UNIX commands compile and program:
+cd /lufa-ws2801/firmware
+make
+make program
